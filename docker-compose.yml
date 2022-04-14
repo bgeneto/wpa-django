@@ -13,10 +13,7 @@ services:
     ports:
       - 8000:8000
     volumes:
-      #- ./free-server:/free-server
-      # commented reason: using Dockerfile COPY
-      #- ./config/db.sqlite3:/free-server/db.sqlite3
-      #- ./config/.env:/free-server/freeweb/.env:ro
+      - ./config/db.sqlite3:/free-server/db.sqlite3
       - /etc/timezone:/etc/timezone:ro
       - /etc/localtime:/etc/localtime:ro
     environment:

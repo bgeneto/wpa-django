@@ -16,7 +16,6 @@ WORKDIR $INSTDIR
 
 RUN pip install --no-cache-dir --user -r REQUIREMENTS.txt
 COPY ./config/.env $INSTDIR/freeweb/
-COPY ./config/db.sqlite3 $INSTDIR/
 RUN python3 manage.py collectstatic
 
 ENV TINI_VERSION v0.19.0
@@ -29,4 +28,5 @@ RUN chmod +x /tini
 
 ENTRYPOINT ["/tini", "--"]
 CMD ["daphne", "-b", "0.0.0.0", "-p", "8000", "freeweb.asgi:application"]
+# for debug only:
 #ENTRYPOINT ["tail", "-f", "/dev/null"]
