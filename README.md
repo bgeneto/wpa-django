@@ -34,4 +34,4 @@ SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET=
 ```
 
 Or simply rename the provided `.env.init` file.
-Add an initial database file by renaming the `db.sqlite3.initial` file to `db.sqlite3`. 
+Add an initial database file by renaming the `db.sqlite3.init` file to `db.sqlite3`. 
