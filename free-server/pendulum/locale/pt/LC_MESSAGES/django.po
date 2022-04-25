@@ -82,7 +82,7 @@ msgstr "g [m/s^2]"
 #: pendulum/templates/free/experiments/pendulum.html:114
 #: pendulum/templates/free/experiments/pendulum.html:161
 msgid "Velocity [m/s]"
-msgstr "Velocidade [m/s]"
+msgstr "Velocidade [cm/s]"
 
 #: pendulum/templates/free/experiments/pendulum.html:115
 #: pendulum/templates/free/experiments/pendulum.html:162
