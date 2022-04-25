@@ -30,7 +30,7 @@ msgstr "# amostra"
 
 #: pendulum/static/free/js/plotly_results.js:391
 msgid "Linear velocity [m/s]"
-msgstr "Velocidade linear [m/s]"
+msgstr "Velocidade linear [cm/s]"
 
 #: pendulum/static/free/js/plotly_results.js:419
 #: pendulum/static/free/js/plotly_results.js:445
