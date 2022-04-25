@@ -30,7 +30,7 @@ msgstr "# amostra"
 
 #: .\static\free\js\plotly_results.js:378
 msgid "Linear velocity [m/s]"
-msgstr "Velocidade linear [m/s]"
+msgstr "Velocidade linear [cm/s]"
 
 #: .\static\free\js\plotly_results.js:406
 #: .\static\free\js\plotly_results.js:432
