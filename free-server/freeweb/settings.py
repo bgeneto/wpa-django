@@ -86,6 +86,10 @@ TEMPLATES = [
     },
 ]
 
+# session config
+SESSION_SAVE_EVERY_REQUEST = True
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+
 WSGI_APPLICATION = 'freeweb.wsgi.application'
 
 
